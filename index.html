@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rendani's Portfolio Website</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <header class="header">
+    <a href="#home" class="logo">
+      Rendani <span>Masegwala</span>
+    </a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="gradient-btn">Contact Me</a>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hi, It's <span>Rendani</span></h1>
+      <h3>
+        I'm a <span>Backend PHP/Web Developer</span>
+      </h3>
+      <p>As a dedicated PHP Developer with
+        over 3 years of experience, I
+        specialize in developing,
+        maintaining, and enhancing
+        dynamic web applications and
+        websites.</p>
+
+      <div class="social-icons">
+        <a href="https://github.com/Rendani007">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a href="www.linkedin.com/in/rendani-masegwala-7ba468165">
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+        <a href="mailto:rendanni.m@gmail.com">
+          <i class='bx bx-envelope'></i>
+        </a>
+
+      </div>
+
+      <div class="btn-group">
+        <a href="/IMG/Rendani Masegwala CV 2024.pdf" download="Rendani Masegwala CV 2024.pdf" class="btn">Download
+          CV</a>
+        <!-- <a href="#contact" class="btn">Contact</a> -->
+      </div>
+    </div>
+
+    <div class="home-img">
+      <img src="/IMG/rendani.jpg" alt="">
+    </div>
+
+  </section>
+  <!-- about -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="/IMG/rendani2.jpg" alt="">
+    </div>
+
+    <div class="about-content">
+      <h2>About <span>Me</span></h2>
+      <p>I am a dedicated web developer with a strong foundation in PHP and WordPress, passionate about creating
+        tailored web solutions that address specific business needs.</p>
+      <button class="btn" id="readMoreBtn">Read More</button> <!-- Changed to button -->
+    </div>
+  </section>
+
+  <!-- Popup -->
+  <div id="popup" class="popup-overlay">
+    <div class="popup-content">
+
+      <h2>About Me</h2>
+      <p class="aboutText">I am a dedicated web developer with expertise in PHP, WordPress, and web application
+        development. Over the
+        years, I’ve built custom applications, optimized WordPress sites, and integrated secure databases.<br><br> I am
+        committed to collaborating with clients to deliver efficient solutions tailored to their business needs.
+        Currently, I am enhancing my skills in API development to further expand my technical capabilities and create
+        more impactful solutions.<br><br>
+      </p>
+      <button id="btnClose" class="close-btn">Close</button>
+    </div>
+  </div>
+
+  <section class="services" id="services">
+    <h2 class="titleServ">Key <span>Responsabilities</span></h2>
+
+    <div class="services-container">
+      <div class="service-box">
+        <div class="service-info">
+          <i class='bx bxl-wordpress'></i>
+          <h4>Wordpress</h4>
+          <p>Develop custom websites and web applications using PHP and WordPress.<br><br>
+            Implement front-end features with HTML, CSS, JavaScript, and frameworks like Bootstrap.<br><br>
+            Regularly update and maintain WordPress sites, ensuring they are secure and running on the latest versions.
+          </p>
+        </div>
+      </div>
+
+      <div class="service-box">
+        <div class="service-info">
+          <i class="bx bx-code"></i>
+          <h4>Frontend</h4>
+          <p>
+            Utilized frameworks like Bootstrap to enhance front-end design and responsiveness.<br><br>
+            Ensured seamless communication between front-end features and back-end logic for smooth user
+            experience.<br><br>
+            Conducted front-end testing and debugging across different browsers and devices to ensure consistent user
+            experiences.<br><br>
+          </p>
+        </div>
+      </div>
+
+      <div class="service-box">
+        <div class="service-info">
+          <i class="bx bx-code-curly"></i>
+          <h4>Backend</h4>
+          <p>
+            Developed and maintained custom PHP web applications, focusing on user authentication, email verification,
+            and password reset mechanisms.<br><br>
+            Implemented data-driven functionalities such as survey stats calculation and document conversion from PDF to
+            web formats.<br><br>
+            Designed, optimized, and managed MySQL databases, ensuring efficient data storage and retrieval.<br><br>
+
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="titleProj">Key <span>Projects</span></h2>
+
+    <div class="projects-box">
+      <div class="project-card">
+        <img src="/IMG/mh.png" alt="">
+        <h3>Mercury Hampton</h3>
+        <p> Mercury Hampton is a recruitment-focused web
+          application where I managed the complete PHP development process.
+          I created a dynamic platform with features such as user and admin
+          account creation, user authentication, and email verification. <br><br>The
+          project also required the development of user and admin dashboards
+          to streamline job listings and application tracking processes. Custom
+          plugins were developed to enhance the site's functionality and
+          scalability.</p>
+        <a class="btn" href="https://mercuryhampton.com/" target="_blank">Review Project</a>
+      </div>
+      <div class="project-card">
+        <img src="/IMG/mmi.png" alt="">
+        <h3>Metropolitan Health</h3>
+        <p>For the mmi social media application, I leveraged PHP to
+          create an interactive and secure platform. My responsibilities included
+          developing user and admin dashboards, user authentication, and
+          email verification systems.<br><br> I also worked on API integrations and
+          customized survey features, with results being converted from PDFs to
+          web formats. The platform was optimized for performance and
+          security, providing users with a smooth and reliable experience.
+        </p>
+        <a class="btn" href="https://mmi.myhealth360.co.za/" target="_blank">Review Project</a>
+      </div>
+      <div class="project-card">
+        <img src="/IMG/dsac.png" alt="">
+        <h3>Department of Arts and Culture </h3>
+        <p>Silapha is a web application offering support services,
+          where I was responsible for both front-end and back-end PHP
+          development. I implemented features such as user authentication,
+          email verification, and user and admin dashboard creation.<br><br> The project
+          also required developing secure data handling procedures, ensuring
+          real-time updates, and converting survey results from PDFs to web
+          documents. The site was optimized for performance and met stringent
+          industry security standards.
+        </p>
+        <a class="btn" href="https://dsac.myhealth360.co.za/index.php" target="_blank">Review Project</a>
+      </div>
+      <div class="project-card">
+        <img src="/IMG/vkn.png" alt="">
+        <h3>VKN Financial Servises</h3>
+        <p>The VKN project involved creating a custom insurance
+          calculator. I was responsible for PHP-based user authentication and
+          admin dashboard development, ensuring that both were intuitive and
+          secure. <br><br>The calculator logic was implemented in PHP and integrated
+          with a WordPress template. Additionally, I designed a system to
+          manage user data and preferences, providing a seamless user
+          experience across various devices.</p>
+        <a class="btn" href="https://www.vknfs.co.za/" target="_blank">Review Project</a>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="contact-icons" id="contact">
+    <h2 class="contactHeading">Contact <span>Me</span></h2>
+    <div class="contact-icon-container">
+      <div class="contact-icon-item">
+        <i class='bx bx-phone'></i>
+        <h4><span class="cont">Phone</span></h4>
+        <a href="#">082 482 3473</a>
+      </div>
+      <div class="contact-icon-item">
+        <i class='bx bx-envelope'></i>
+        <h4><span class="cont">Mail</span></h4>
+        <div class="contMail">Rendanni.m@gmail.com</div>
+      </div>
+      <div class="contact-icon-item">
+        <i class='bx bxl-whatsapp'></i>
+        <h4><span class="cont">WhatsApp</span></h4>
+        <a class="details" href="#">061 986 2797</a>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="https://github.com/Rendani007">
+        <i class="bx bxl-github"></i>
+      </a>
+      <a href="www.linkedin.com/in/rendani-masegwala-7ba468165">
+        <i class="bx bxl-linkedin-square"></i>
+      </a>
+      <a href="mailto:rendanni.m@gmail.com">
+        <i class='bx bx-envelope'></i>
+      </a>
+    </div>
+
+    <ul class="list">
+
+      <li>
+        <a href="#services">Services</a>
+      </li>
+      <li>
+        <a href="#about">About Me</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+
+      <p class="copywrite">
+        <!-- All rights reserved  -->
+        Rendani Masegwala | All Rights Reserved
+      </p>
+    </ul>
+
+  </footer>
+
+  <script src="/JS/script.js"></script>
+
+</body>
+
+</html>
