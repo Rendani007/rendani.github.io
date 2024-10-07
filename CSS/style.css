@@ -32,7 +32,9 @@ body {
   left: 0;
   padding: 4rem 15%;
   background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(30px);
+/*   backdrop-filter: blur(30px); */
+  filter: blur(5px); /* Apply blur to the entire header */
+    -webkit-filter: blur(5px); /* Safari support */
   display: flex;
   justify-content: space-between;
   align-items: center;
