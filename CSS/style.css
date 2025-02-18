@@ -32,7 +32,12 @@ body {
   left: 0;
   padding: 4rem 15%;
   background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(30px);
+
+/*   backdrop-filter: blur(30px); */
+  background: rgba(0, 0, 0, 0.3); /* Slightly transparent background */
+    backdrop-filter: blur(10px); /* Blur only the background */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+
   display: flex;
   justify-content: space-between;
   align-items: center;
