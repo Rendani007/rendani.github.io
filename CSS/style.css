@@ -32,10 +32,12 @@ body {
   left: 0;
   padding: 4rem 15%;
   background: rgba(0, 0, 0, 0.3);
+
 /*   backdrop-filter: blur(30px); */
   background: rgba(0, 0, 0, 0.3); /* Slightly transparent background */
     backdrop-filter: blur(10px); /* Blur only the background */
     -webkit-backdrop-filter: blur(10px); /* For Safari */
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -198,6 +200,7 @@ section {
   border: 2px solid transparent;
   font-weight: 600;
   transition: 0.3s ease-in-out;
+  
 }
 
 .btn:hover {
@@ -414,6 +417,8 @@ section {
   cursor: pointer;
   box-shadow: 0 0 5px var(--main-color);
   transition: 0.3s ease;
+  /* set card height */
+  height:60rem;
 }
 
 .project-card:hover {
@@ -471,8 +476,9 @@ section {
   margin-bottom: 5px;
 }
 
-/* .contact-icon-item p,
-.contact-icon-item a {
+/* 
+.contact-icon-item .phone, 
+.contact-icon-item .whatsapp, {
   font-size: 26px;
   color: #ff6600;
   text-decoration: none;
