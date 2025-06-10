@@ -40,7 +40,7 @@ const Hero = () => {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
-          <div className="mb-8 pt-40 p">
+          <div className="mb-8 pt-30 p">
             <div className="flex justify-center mb-6 mt-6">
               {/* <Sparkles className="w-12 h-12 text-yellow-500 animate-pulse-glow" /> */}
             </div>
