@@ -38,10 +38,10 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="glassmorphism p-8 rounded-2xl">
-            <h3 className="text-2xl font-bold text-theme-primary mb-6">My Journey</h3>
-            <p className="text-theme-secondary mb-6 leading-relaxed">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ">
+          <div className=" glassmorphism p-8 rounded-2xl text-center sm:text-left">
+            <h3 className="text-2xl font-bold text-theme-primary mb-6 text-center ">My Journey</h3>
+            <p className="text-theme-secondary mb-6 leading-relaxed text-center ">
               I’m a motivated and versatile Software Developer with extensive experience in delivering scalable, 
               secure, and user-friendly web applications using React and Laravel frameworks. Proficient in front-end 
               and back-end development, database management, and API integration. I design custom solutions aligned 
@@ -64,17 +64,17 @@ const About = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {highlights.map((item, index) => (
               <div 
                 key={item.title}
-                className="p-6 glassmorphism rounded-xl hover:shadow-lg transition-all duration-300 border-theme group hover:scale-105"
+                className="p-6 glassmorphism rounded-xl hover:shadow-lg transition-all duration-300 border-theme group hover:scale-105 flex flex-col items-center sm:items-start"
               >
                 <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 group-hover:animate-pulse-glow">
                   <item.icon className="w-6 h-6 text-white" />
                 </div>
-                <h4 className="text-lg font-semibold text-theme-primary mb-2">{item.title}</h4>
-                <p className="text-theme-secondary text-sm">{item.description}</p>
+                <h4 className="text-lg font-semibold text-theme-primary mb-2 text-center sm:text-left">{item.title}</h4>
+                <p className="text-theme-secondary text-sm text-center sm:text-left">{item.description}</p>
               </div>
             ))}
           </div>

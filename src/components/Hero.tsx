@@ -40,16 +40,16 @@ const Hero = () => {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
-          <div className="mb-8 mt-10 pt-30 p">
+          <div className="mb-8   pt-30 p">
             <div className="flex justify-center mb-6 mt-6">
               {/* <Sparkles className="w-12 h-12 text-yellow-500 animate-pulse-glow" /> */}
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold pt-10 mb-6">
-              <span className="text-theme-primary">Rendani Masiagwala</span>
+            <h1 className="text-4xl md:text-7xl font-bold pt-10 mb-6">
+              <span className="text-theme-primary">Rendani Masegwala</span>
               <br />
-              <span className="text-gradient animate-gradient">Full Stack Developer</span>
+              <span className="text-gradient animate-gradient text-3xl sm:text-4xl md:text-5xl">Full Stack Developer</span>
             </h1>
-            <p className="text-xl md:text-2xl text-theme-secondary max-w-3xl mx-auto leading-relaxed">
+            <p className="text-1xl md:text-2xl text-theme-secondary max-w-3xl mx-auto leading-relaxed">
               I craft beautiful, responsive web applications with modern technologies.
               Passionate about creating seamless user experiences and robust backend solutions.
             </p>

@@ -6,7 +6,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Metropolitan Health",
-      description: "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, inventory management, and admin dashboard.",
+      description: "I was involved in a 3 person development team that created this interactive PHP social media platform.",
       image: "Images/mmi.png",
       technologies: ["PHP", "JavaScript", "HTML", "CSS3"],
       githubUrl: "#",
@@ -14,7 +14,7 @@ const Projects = () => {
     },
     {
       title: "My Health 360",
-      description: "A collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features. Built with React and Firebase.",
+      description: "Built user profile management and secure authentication features. I also implemented survey data conversion and responsive web design. ",
       image: "Images/silapha.png",
       technologies: ["PHP", "JavaScript", "HTML", "CSS3"],
       githubUrl: "#",
@@ -22,7 +22,7 @@ const Projects = () => {
     },
     {
       title: "VKN Financial Servises",
-      description: "A comprehensive analytics dashboard for tracking business metrics with interactive charts, real-time data visualization, and customizable widgets.",
+      description: "Developed an insurance calculator integrated into a WordPress template. I built secure admin panel and dynamic form calculations using PHP MVC.",
       image: "Images/vkn.png",
       technologies: ["PHP", "JavaScript", "HTML", "CSS3"],
       githubUrl: "#",
@@ -30,7 +30,7 @@ const Projects = () => {
     },
     {
       title: "Promatch",
-      description: "A modern social media application with real-time messaging, post sharing, and user interactions. Features responsive design and progressive web app capabilities.",
+      description: "ProMatch is a B-to-C platform that gives small businesses a platform to create profiles, allowing them to showcase their services to a broader audience without needing expensive advertising or marketing tools. I developed the entire user authentication process, WhatsApp feature and other backend features.",
       image: "Images/promatch.png",
       technologies: ["PHP", "JavaScript", "HTML", "CSS3"],
       githubUrl: "#",
@@ -88,7 +88,7 @@ const Projects = () => {
                   <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                   <Button size="sm" className="flex items-center space-x-2 bg-gradient-primary hover:opacity-90">
                     <ExternalLink className="w-4 h-4" />
-                    <span>Live Demo</span>
+                    <span>View Project</span>
                   </Button>
                   </a>
                 </div>
