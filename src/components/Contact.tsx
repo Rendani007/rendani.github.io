@@ -33,7 +33,7 @@ const Contact = () => {
 
   const socialLinks = [
     // { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "www.linkedin.com/in/rendani-masegwala-7ba468165", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://linkedin.com/in/rendani-masegwala-7ba468165", label: "LinkedIn" },
   ];
 
  return (
