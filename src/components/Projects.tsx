@@ -6,23 +6,23 @@ const Projects = () => {
   const projects = [
     {
       title: "Metropolitan Health",
-      description: "I was involved in a 3 person development team that created this interactive PHP social media platform.",
+      description: "Developed secure login and data management using Spring MVC and PHP. I designed an admin dashboard with jQuery and Bootstrap for streamlined control. I developed backend features such as user authentication and verification. ",
       image: "Images/mmi.png",
       technologies: ["PHP", "JavaScript", "HTML", "CSS3"],
       githubUrl: "#",
       liveUrl: "https://mmi.myhealth360.co.za/"
     },
-    {
-      title: "My Health 360",
-      description: "Built user profile management and secure authentication features. I also implemented survey data conversion and responsive web design. ",
-      image: "Images/silapha.png",
-      technologies: ["PHP", "JavaScript", "HTML", "CSS3"],
-      githubUrl: "#",
-      liveUrl: "https://dsac.myhealth360.co.za/index.php"
-    },
+    // {
+    //   title: "My Health 360",
+    //   description: "Built user profile management and secure authentication features. I also implemented survey data conversion and responsive web design. ",
+    //   image: "Images/silapha.png",
+    //   technologies: ["PHP", "JavaScript", "HTML", "CSS3"],
+    //   githubUrl: "#",
+    //   liveUrl: "https://dsac.myhealth360.co.za/index.php"
+    // },
     {
       title: "VKN Financial Servises",
-      description: "Developed an insurance calculator integrated into a WordPress template. I built secure admin panel and dynamic form calculations using PHP MVC.",
+      description: "Developed an insurance calculator integrated into a WordPress template. I also built secure admin panel and dynamic form calculations using PHP MVC.",
       image: "Images/vkn.png",
       technologies: ["PHP", "JavaScript", "HTML", "CSS3"],
       githubUrl: "#",
