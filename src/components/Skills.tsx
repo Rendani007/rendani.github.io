@@ -4,31 +4,30 @@ const Skills = () => {
     {
       title: "Languages & Frameworks",
       skills: [
-        { name: "React", level: 70 },
+        { name: "React", level: 50 },
         { name: "JavaScript", level: 90 },
         { name: "HTML5", level: 80 },
         { name: "CSS3", level: 80 },
-        { name: "WordPress", level: 90 },
       ]
     },
     {
       title: "Front-End Tools",
       skills: [
-        { name: "React.js", level: 70 },
-        { name: "Bootstrap", level: 80 },
-        { name: "jQuery", level: 80 },
-        { name: "AJAX", level: 80 },
-        { name: "WordPress", level: 90 },
+       
+        { name: "Bootstrap", level: 60 },
+        { name: "jQuery", level: 60 },
+        { name: "AJAX", level: 60 },
+        { name: "WordPress", level: 70 },
       ]
     },
     {
       title: "Back-End & Databases",
       skills: [
-        { name: "Laravel MVC", level: 90 },
+        { name: "Laravel MVC", level: 80 },
         { name: "MySQL", level: 80 },
         { name: "PostgreSQL", level: 80 },
-        { name: "API Integration", level: 70 },
-        { name: "RESTful Services", level: 70 },
+        { name: "API Integration", level: 60 },
+        { name: "RESTful Services", level: 60 },
       ]
     },
     {
