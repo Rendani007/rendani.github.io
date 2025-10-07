@@ -78,7 +78,7 @@ const Hero = () => {
           <div className="flex justify-center space-x-6 mb-12">
             {[
               { icon: Github, href: 'https://github.com/Rendani007', color: 'text-gray-700 dark:text-gray-300' },
-              { icon: Linkedin, href: 'www.linkedin.com/in/rendani-masegwala-7ba468165', color: 'text-blue-600' },
+              { icon: Linkedin, href: 'https://linkedin.com/in/rendani-masegwala-7ba468165', color: 'text-blue-600' },
               // { icon: Mail, href: 'rendanni.m@gmail.com', color: 'text-red-500' }
             ].map((social, index) => (
               <a 
