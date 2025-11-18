@@ -47,7 +47,7 @@ const About = () => {
               and back-end development, database management, and API integration. I design custom solutions aligned 
               with business objectives, ensuring exceptional user experiences and robust system performance.
             </p>
-            <p className="text-theme-secondary mb-6 leading-relaxed">
+            <p className="text-theme-secondary mb-6 leading-relaxed text-center">
               I believe in writing clean, maintainable code and staying up-to-date with the latest 
               industry trends and best practices. When I'm not coding, you can find me exploring new 
               technologies, or sharing knowledge with the developer community.
