@@ -4,8 +4,8 @@ const Skills = () => {
     {
       title: "Languages & Frameworks",
       skills: [
-        { name: "React", level: 50 },
-        { name: "JavaScript", level: 90 },
+        { name: "React", level: 30 },
+        { name: "JavaScript", level: 70 },
         { name: "HTML5", level: 80 },
         { name: "CSS3", level: 80 },
       ]
@@ -17,7 +17,7 @@ const Skills = () => {
         { name: "Bootstrap", level: 60 },
         { name: "jQuery", level: 60 },
         { name: "AJAX", level: 60 },
-        { name: "WordPress", level: 70 },
+        { name: "WordPress", level: 80 },
       ]
     },
     {
@@ -34,17 +34,16 @@ const Skills = () => {
       title: "Tools & DevOps",
       skills: [
         { name: "Git", level: 80 },
-        { name: "Docker", level: 80 },
-        { name: "JSON", level: 80 },
-        { name: "Postman", level: 60 },
-        { name: "GitHub", level: 90 },
+        { name: "Docker", level: 50 },
+        { name: "JSON", level: 70 },
+        { name: "Postman", level: 70 },
+        { name: "GitHub", level: 80 },
       ]
     },
     {
       title: "Development Practices",
       skills: [
-        { name: "Architecture", level: 87 },
-        { name: "Secure Authentication", level: 85 },
+        { name: "Secure Authentication", level: 70 },
         { name: "Agile/Scrum", level: 60 },
         { name: "Unit Testing", level: 60 },
       ]
@@ -94,7 +93,7 @@ const Skills = () => {
           <h3 className="text-2xl font-bold text-theme-primary mb-8">Additional Technologies</h3>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-               'Figma', 'Vite', 'Firebase', 'Supabase', 'Vercel', 'Netlify', 'Tailwind CSS'
+               'Figma',  'Firebase', 'Railway', 'Vercel', 'Netlify',
             ].map((tech) => (
               <span 
                 key={tech}
